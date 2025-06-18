@@ -1,0 +1,20 @@
+{
+  "name": "testreverb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "G_A_7",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "laravel-echo": "^2.1.6",
+    "pusher-js": "^8.4.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
