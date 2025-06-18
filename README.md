@@ -16,8 +16,8 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone <url вашего репо>
-cd <папка проекта>
+git clone https://github.com/antydesk/TestBroadCast.git
+cd TestBroadCast
 ```
 
 2. Установите зависимости:
