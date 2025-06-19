@@ -26,7 +26,7 @@ cd TestBroadCast
 npm install
 ```
 
-3. Создайте файл `.env` в корне проекта и заполните переменные окружения:
+3. Создайте файл .env в корне проекта, скопировав содержимое из .env.example, и заполните необходимые переменные окружения:
 
 ```env
 VITE_BROADCASTER=reverb
@@ -36,12 +36,13 @@ VITE_WS_PORT=8080
 VITE_FORCE_TLS=false
 VITE_DISABLE_STATS=true
 
-VITE_CHANNEL=product.status.117
 
-# ⚠️ Важно: точка в начале VITE_EVENT обязательна для Echo!
+#⚠️ Обрати внимание: VITE_EVENT=.ProductStatusEvent — . обязателен для Echo!
+VITE_CHANNEL=product.status.117
 VITE_EVENT=.ProductStatusEvent
 
-VITE_PRIVATE_CHANNEL=product.private.status.117
+#⚠️ Обрати внимание: VITE_PRIVATE_EVENT=.ProductStatusPrivateEvent — . обязателен для Echo!
+VITE_PRIVATE_CHANNEL=product.private.status.118
 VITE_PRIVATE_EVENT=.ProductStatusPrivateEvent
 
 VITE_ACCESS_TOKEN=
